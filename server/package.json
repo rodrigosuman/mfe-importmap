@@ -1,0 +1,22 @@
+{
+  "name": "@pocs/cdns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently npm:server:*",
+    "server:cdn-home": "http-server ../page-1/dist -p 3001 --cors -c-1",
+    "server:cdn-motor": "http-server ../motor-busca/dist -p 3005 --cors -c-1",
+    "server:cdn-hoteis": "http-server ../page-3/dist -p 3002 --cors -c-1",
+    "server:cdn-produtos": "http-server ../page-2/dist -p 3004 --cors -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

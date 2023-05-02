@@ -1,0 +1,70 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  justify-content: center;
+}
+
+button {
+  background-color: blueviolet;
+  border-radius: 8px;
+  color: white;
+  margin: 0;
+  padding-inline: 60px;
+  padding-block: 12px;
+  font-size: 1rem;
+  border: none;
+  margin-top: 10px;
+}
+
+input {
+  background-color: #ffffff33;
+  border-radius: 8px;
+  color: white;
+  padding-inline: 10px;
+  padding-block: 12px;
+  font-size: 1rem;
+  border: 1px solid white;
+  margin: 0;
+}
+
+nav {
+  padding-block: 20px;
+  column-gap: 20px;
+  display: flex;
+}
+
+nav > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+  border: none;
+  background-color: #ffffff33;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+form > fieldset > .form-item {
+  display: grid;
+  flex: 1;
+}
+
+form > button {
+  width: 100%;
+}
+
+form {
+  margin-bottom: 80px;
+}

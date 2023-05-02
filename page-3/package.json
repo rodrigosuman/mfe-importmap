@@ -1,0 +1,27 @@
+{
+  "name": "@pocs/page-hoteis",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "types": "./index.d.ts",
+  "module": "./page-hoteis.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "postbuild": "cp package.json dist",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@pocs/motor-busca": "file:../motor-busca/dist"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-plugin-dts": "^2.2.0"
+  }
+}
