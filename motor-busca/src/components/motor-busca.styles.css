@@ -1,35 +1,9 @@
-html {
-  font-size: 20px;
-}
-
-body {
-  background-color: rgb(26, 5, 93);
-  color: white;
-  padding: 0;
-  padding-inline: 15%;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-nav {
-  padding-block: 20px;
-  column-gap: 20px;
-  display: flex;
-}
-
-nav > a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
 }
 
 form {
   width: 100%;
-  margin-block-end: 90px;
 }
 
 form > button {

@@ -3,8 +3,10 @@ import { Motor } from "@pocs/motor-busca";
 const Home: React.FC = () => {
   return (
     <>
-      <Motor onSubmit={console.log} />
-      Home: This a Micro-fes app
+      <Motor onSubmit={data => {
+        console.log("Page 1", data);
+      }} />
+      Home: This a Micro-fes app with new updates
     </>
   );
 };
